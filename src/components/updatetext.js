@@ -7,7 +7,7 @@ function Updatetext(){
     }
 return (
     <div>
-        <h1>Enter your name :</h1>
+        <h1>Enter your name:</h1>
         <input type="text" onChange={showupdate}/>
       <h1>{grup.str} {grup.name}{grup.end}</h1>
     </div>
