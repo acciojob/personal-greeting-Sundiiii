@@ -4,12 +4,13 @@ function Updatetext(){
     let [grup,setName]=useState({str:"",name:"",end:""});
     function showupdate(event){
         setName({...grup,str:"Hello",name:event.target.value,end:"!"});
+        // document.write("Hello "+event.target.value+"!")
     }
 return (
     <div>
         <h1>Enter your name:</h1>
         <input type="text" onChange={showupdate}/>
-      <h1>{grup.str} {grup.name}{grup.end}</h1>
+      <p>{grup.str} {grup.name}{grup.end}</p>
     </div>
 )
 }
