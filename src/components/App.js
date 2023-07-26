@@ -6,7 +6,7 @@ import Updatetext from "./updatetext";
 const App = () => {
   return (
     <div>
-        <Updatetext/>
+          <Updatetext/>
     </div>
   )
 }
